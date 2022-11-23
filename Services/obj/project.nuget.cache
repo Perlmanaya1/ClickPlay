@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "0t7acNSHb0e1roZObWihQKPZG+Z7zTxLpEipW+2/4AOQ+5Ya8blr+flTHjnIGUxCjqWerfh+GnGN2j1dzcqwlA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Owner\\Desktop\\פרויקט\\TheProject\\Project\\Services\\Services.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Owner\\.nuget\\packages\\melanchall.drywetmidi\\5.2.0\\melanchall.drywetmidi.5.2.0.nupkg.sha512",
+    "C:\\Users\\Owner\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\5.0.0\\microsoft.extensions.dependencyinjection.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\Owner\\.nuget\\packages\\microsoft.netcore.platforms\\3.0.0\\microsoft.netcore.platforms.3.0.0.nupkg.sha512",
+    "C:\\Users\\Owner\\.nuget\\packages\\microsoft.win32.systemevents\\4.6.0\\microsoft.win32.systemevents.4.6.0.nupkg.sha512",
+    "C:\\Users\\Owner\\.nuget\\packages\\system.drawing.common\\4.6.0\\system.drawing.common.4.6.0.nupkg.sha512"
+  ],
+  "logs": []
+}
