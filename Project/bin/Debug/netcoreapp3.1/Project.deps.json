@@ -1,0 +1,192 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Project/1.0.0": {
+        "dependencies": {
+          "Algoritem": "1.0.0",
+          "NFugue": "1.1.0",
+          "System.Drawing.Common": "5.0.0"
+        },
+        "runtime": {
+          "Project.dll": {}
+        }
+      },
+      "Microsoft.NETCore.Platforms/5.0.0": {},
+      "Microsoft.NETCore.Targets/1.1.0": {},
+      "Microsoft.Win32.SystemEvents/5.0.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "5.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Win32.SystemEvents.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.20.51904"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/netcoreapp3.0/Microsoft.Win32.SystemEvents.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.20.51904"
+          }
+        }
+      },
+      "NFugue/1.1.0": {
+        "dependencies": {
+          "NLog": "4.3.7",
+          "Sanford.Multimedia.Midi": "6.6.0"
+        },
+        "runtime": {
+          "lib/net461/NFugue.dll": {
+            "assemblyVersion": "1.1.0.45",
+            "fileVersion": "1.1.0.45"
+          }
+        }
+      },
+      "NLog/4.3.7": {
+        "runtime": {
+          "lib/net45/NLog.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.3.2894.0"
+          }
+        }
+      },
+      "Sanford.Multimedia.Midi/6.6.0": {
+        "runtime": {
+          "lib/net20/Sanford.Multimedia.Midi.dll": {
+            "assemblyVersion": "6.6.0.0",
+            "fileVersion": "6.6.0.0"
+          }
+        }
+      },
+      "System.Collections/4.3.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "5.0.0",
+          "Microsoft.NETCore.Targets": "1.1.0",
+          "System.Runtime": "4.3.0"
+        }
+      },
+      "System.Drawing.Common/5.0.0": {
+        "dependencies": {
+          "Microsoft.Win32.SystemEvents": "5.0.0"
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/System.Drawing.Common.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.20.51904"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/unix/lib/netcoreapp3.0/System.Drawing.Common.dll": {
+            "rid": "unix",
+            "assetType": "runtime",
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.20.51904"
+          },
+          "runtimes/win/lib/netcoreapp3.0/System.Drawing.Common.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.20.51904"
+          }
+        }
+      },
+      "System.Runtime/4.3.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "5.0.0",
+          "Microsoft.NETCore.Targets": "1.1.0"
+        }
+      },
+      "Algoritem/1.0.0": {
+        "dependencies": {
+          "System.Collections": "4.3.0",
+          "System.Drawing.Common": "5.0.0"
+        },
+        "runtime": {
+          "Algoritem.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Project/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.NETCore.Platforms/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-VyPlqzH2wavqquTcYpkIIAQ6WdenuKoFN0BdYBbCWsclXacSOHNQn66Gt4z5NBqEYW0FAPm5rlvki9ZiCij5xQ==",
+      "path": "microsoft.netcore.platforms/5.0.0",
+      "hashPath": "microsoft.netcore.platforms.5.0.0.nupkg.sha512"
+    },
+    "Microsoft.NETCore.Targets/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-aOZA3BWfz9RXjpzt0sRJJMjAscAUm3Hoa4UWAfceV9UTYxgwZ1lZt5nO2myFf+/jetYQo4uTP7zS8sJY67BBxg==",
+      "path": "microsoft.netcore.targets/1.1.0",
+      "hashPath": "microsoft.netcore.targets.1.1.0.nupkg.sha512"
+    },
+    "Microsoft.Win32.SystemEvents/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Bh6blKG8VAKvXiLe2L+sEsn62nc1Ij34MrNxepD2OCrS5cpCwQa9MeLyhVQPQ/R4Wlzwuy6wMK8hLb11QPDRsQ==",
+      "path": "microsoft.win32.systemevents/5.0.0",
+      "hashPath": "microsoft.win32.systemevents.5.0.0.nupkg.sha512"
+    },
+    "NFugue/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-8b2LBfx09yWAQDc0bbtr9hszNVJDrwaALBTh/tw3g97oBjD1svfPqpXz/8lpdIcQtSqIgRssmml8FnC1dy+d5w==",
+      "path": "nfugue/1.1.0",
+      "hashPath": "nfugue.1.1.0.nupkg.sha512"
+    },
+    "NLog/4.3.7": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6C/3bsnESGyKWaw1IkdHIcJdLMsuI0YnYKTapos8URHLydxeK7Ht1NO1M6PZdu6GZzFqelrd26b55dlLTic3Wg==",
+      "path": "nlog/4.3.7",
+      "hashPath": "nlog.4.3.7.nupkg.sha512"
+    },
+    "Sanford.Multimedia.Midi/6.6.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-TwJJttY7PkmGGuc8nNTCyqjTRgBOsfGmz/GDNdXjlI+7nZYs/AiXVIMm+yOTkL5RXps/maW5uqgPOxgNKQ9mLQ==",
+      "path": "sanford.multimedia.midi/6.6.0",
+      "hashPath": "sanford.multimedia.midi.6.6.0.nupkg.sha512"
+    },
+    "System.Collections/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3Dcj85/TBdVpL5Zr+gEEBUuFe2icOnLalmEh9hfck1PTYbbyWuZgh4fmm2ysCLTrqLQw6t3TgTyJ+VLp+Qb+Lw==",
+      "path": "system.collections/4.3.0",
+      "hashPath": "system.collections.4.3.0.nupkg.sha512"
+    },
+    "System.Drawing.Common/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-SztFwAnpfKC8+sEKXAFxCBWhKQaEd97EiOL7oZJZP56zbqnLpmxACWA8aGseaUExciuEAUuR9dY8f7HkTRAdnw==",
+      "path": "system.drawing.common/5.0.0",
+      "hashPath": "system.drawing.common.5.0.0.nupkg.sha512"
+    },
+    "System.Runtime/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-JufQi0vPQ0xGnAczR13AUFglDyVYt4Kqnz1AZaiKZ5+GICq0/1MH/mO/eAJHt/mHW1zjKBJd7kV26SrxddAhiw==",
+      "path": "system.runtime/4.3.0",
+      "hashPath": "system.runtime.4.3.0.nupkg.sha512"
+    },
+    "Algoritem/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
